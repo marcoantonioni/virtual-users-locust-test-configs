@@ -1,13 +1,13 @@
 {
-  "startedAt": "2023-05-14T10:52:18Z",
-  "endedAt": "2023-05-14T10:52:34Z",
+  "startedAt": "2023-05-14T11:11:25Z",
+  "endedAt": "2023-05-14T11:11:41Z",
   "numOfInstances": 1,
   "timeExceeded": false,
   "assertsManager": "/home/marco/locust/studio/virtual-users-locust-test-configs/configurations/assertsManager-type-ut1.py",
   "instances": [
     {
       "processName": "VUSUnitTestExample1",
-      "processId": "3097",
+      "processId": "3108",
       "state": "Completed",
       "variables": {
         "inputData": {
@@ -18,7 +18,7 @@
         "promoteLevel": 2,
         "promoteRequest": true,
         "evaluationForm": {
-          "vote": 8,
+          "vote": 10,
           "data": {
             "name": "John",
             "counter": 0

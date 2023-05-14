@@ -1,5 +1,5 @@
 
-Unit tests failed at 2023-05-14T10:52:36Z !!!
+Unit tests failed at 2023-05-14T11:11:42Z !!!
 
  ==============================
  Process instances analyzed: 1 
@@ -7,7 +7,7 @@ Unit tests failed at 2023-05-14T10:52:36Z !!!
  [
   {
     "processName": "VUSUnitTestExample1",
-    "processId": "3097",
+    "processId": "3108",
     "state": "Completed",
     "variables": {
       "inputData": {
@@ -18,7 +18,7 @@ Unit tests failed at 2023-05-14T10:52:36Z !!!
       "promoteLevel": 2,
       "promoteRequest": true,
       "evaluationForm": {
-        "vote": 8,
+        "vote": 10,
         "data": {
           "name": "John",
           "counter": 0
