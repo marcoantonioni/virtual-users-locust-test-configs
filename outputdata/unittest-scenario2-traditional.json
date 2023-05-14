@@ -1,0 +1,20 @@
+{
+  "startedAt": "2023-05-14T13:26:08Z",
+  "endedAt": "2023-05-14T13:26:56Z",
+  "numOfInstances": 1,
+  "timeExceeded": false,
+  "assertsManager": "/home/marco/locust/studio/virtual-users-locust-test-configs/configurations/assertsManager-type1.py",
+  "instances": [
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "7374",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "counter": 118
+        }
+      }
+    }
+  ]
+}
