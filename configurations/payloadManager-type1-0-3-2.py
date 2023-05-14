@@ -21,7 +21,7 @@ def isMatchingTaskSubject(taskSubjectText, subjectFromUserDictionary):
 # reimplement it as from your needs
 #=============================
 
-def buildPayloadForSubject(text, preExistPayload = None):
+def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCreateIndex: int = None):
     retObject = dict()
     retObject["jsonObject"] = {}
     retObject["thinkTime"] = -1
