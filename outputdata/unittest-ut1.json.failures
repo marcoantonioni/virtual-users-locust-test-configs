@@ -1,0 +1,42 @@
+
+Unit tests failed at 2023-05-14T10:52:36Z !!!
+
+ ==============================
+ Process instances analyzed: 1 
+ ==============================
+ [
+  {
+    "processName": "VUSUnitTestExample1",
+    "processId": "3097",
+    "state": "Completed",
+    "variables": {
+      "inputData": {
+        "name": "John",
+        "counter": 0
+      },
+      "reviewForm": false,
+      "promoteLevel": 2,
+      "promoteRequest": true,
+      "evaluationForm": {
+        "vote": 8,
+        "data": {
+          "name": "John",
+          "counter": 0
+        }
+      }
+    }
+  }
+] 
+
+ ==============================
+ Failed assertions: 1 
+ ==============================
+ [
+  [
+    "assertEqual",
+    "variables.evaluationForm.vote",
+    6
+  ]
+] 
+
+
