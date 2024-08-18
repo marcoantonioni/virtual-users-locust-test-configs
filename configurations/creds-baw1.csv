@@ -1,11 +1,3 @@
 NAME,PASSWORD,EMAIL
-vuxuser1,dem0s,none@nowhere.net
-vuxuser2,dem0s,none@nowhere.net
-vuxuser3,dem0s,none@nowhere.net
-vuxuser4,dem0s,none@nowhere.net
-vuxuser5,dem0s,none@nowhere.net
-vuxuser6,dem0s,none@nowhere.net
-vuxuser7,dem0s,none@nowhere.net
-vuxuser8,dem0s,none@nowhere.net
-vuxuser9,dem0s,none@nowhere.net
-vuxuser10,dem0s,none@nowhere.net
+vuxuser1..vuxuser100,dem0s,none@nowhere.net
+cp4admin,dem0s,none@nowhere.net

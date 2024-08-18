@@ -24,7 +24,9 @@ import random
 #=============================
 
 def isMatchingTaskSubject(taskSubjectText, subjectFromUserDictionary):
-    return taskSubjectText.find(subjectFromUserDictionary) != -1
+    idx = taskSubjectText.find(subjectFromUserDictionary)
+    # print("=====> isMatchingTaskSubject: ", taskSubjectText, subjectFromUserDictionary, idx)
+    return idx != -1
 
 #=============================
 # the function 'buildPayloadForSubject' must be present in any payload manager
