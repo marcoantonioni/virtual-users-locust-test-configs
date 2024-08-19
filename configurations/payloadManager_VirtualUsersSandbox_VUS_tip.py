@@ -1,3 +1,9 @@
+# ==================================
+# Python code for payload manager
+# Application [VirtualUsersSandbox] Acronym [VUS] Snapshot [] Tip [true]
+# Application data model generated in file: ../virtual-users-locust-test-configs/configurations/payloadManager_VirtualUsersSandbox_VUS_tip_DataModel.py
+# ==================================
+
 """
 https://opensource.org/license/mit/
 MIT License
@@ -10,12 +16,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
-
-# ==================================
-# Python code for payload manager
-# Application [VirtualUsersSandbox] Acronym [VUS] Snapshot [] Tip [true]
-# Application data model generated in file: ./configurations/payloadManager_VirtualUsersSandbox_VUS_tip_DataModel.py
-# ==================================
 
 #=============================
 # import section, add what you need
@@ -53,14 +53,14 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
     retObject["jsonObject"] = {}
     retObject["thinkTime"] = -1
 
-    # !!! The following code is an example, remove it if not needed
+    # The following code is an example from demo apps, remove it if not needed
 
     """
     Process: VUSClaimCompleteTwoRoles 
     key: [CCTR]
     task key: 'Compile Request [CCTR]'
     task key: 'Authorize Request [CCTR]'
-    """
+
     if text.find('Start-VUSClaimCompleteTwoRoles') != -1:
         rndVal : int = random.randint(0, 100) + 1
         retObject["jsonObject"] = {'inputData': {'requestId': 'req'+str(rndVal), 'newCounter': rndVal}}
@@ -82,13 +82,14 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
             retObject["jsonObject"] =  {'inputData': {'requestId': 'reqValidated', 'newCounter': rndVal}}
 
         retObject["thinkTime"] = random.randint(0, 5)
+    """
 
     """
     Process: VUSClaimCompleteAuthorize
     key: [CCA]
     task key: 'Compile Request [CCA]'
     task key: 'Authorize Request [CCA]'
-    """
+
     if text.find('Start-VUSClaimCompleteAuthorize') != -1:
         rndVal : int = random.randint(0, 100) + 1
         retObject["jsonObject"] = {'inputData': {'requestId': 'req'+str(rndVal), 'newCounter': rndVal}}
@@ -124,5 +125,6 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
                                         'authorizationData': {'authorized': authorize, 'comments': '', 'review': review}}
 
         retObject["thinkTime"] = random.randint(0, 5)
+    """
 
     return retObject
