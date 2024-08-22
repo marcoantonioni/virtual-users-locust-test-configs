@@ -1,56 +1,2408 @@
 {
-  "startedAt": "2024-08-19T14:26:31Z",
-  "endedAt": "2024-08-19T14:27:04Z",
-  "numOfInstances": 2,
-  "timeExceeded": false,
+  "startedAt": "2024-08-22T15:27:18Z",
+  "endedAt": "2024-08-22T15:34:19Z",
+  "numOfInstances": 100,
+  "timeExceeded": true,
   "assertsManager": "/home/marco/locust/studio/bawvut/virtual-users-locust-test-configs/configurations/assertsManager-type1.py",
   "instances": [
     {
       "processName": "VUSLoanRequest",
-      "processId": "17",
+      "processId": "816",
       "state": "Completed",
       "variables": {
-        "riskLevel": 1,
+        "riskLevel": 2,
         "loanRequest": {
-          "userName": "customer99",
-          "amountRequested": 100000.0,
-          "loanDurationMonths": 36,
-          "requestorAnnualNetIncome": 300000.0,
-          "activeLoans": 0,
+          "userName": "customer68",
+          "amountRequested": 44433.0,
+          "loanDurationMonths": 23,
+          "requestorAnnualNetIncome": 274744.0,
+          "activeLoans": 2,
           "badPayer": false,
           "challengeYourLuck": false
         },
-        "installmentAmount": 2777.777777777778,
+        "installmentAmount": 1931.8695652173913,
         "rejected": false,
-        "loanAccepted": true,
-        "requestDate": "2024-08-19T12:26:38.985Z",
-        "accepted": 1,
-        "riskLevelText": "MID",
-        "requestorMonthlyNetIncome": 25000.0
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:25.438Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 22895.333333333332
       }
     },
     {
       "processName": "VUSLoanRequest",
-      "processId": "18",
+      "processId": "817",
       "state": "Completed",
       "variables": {
         "riskLevel": 1,
         "loanRequest": {
-          "userName": "customer3",
-          "amountRequested": 100000.0,
-          "loanDurationMonths": 36,
-          "requestorAnnualNetIncome": 300000.0,
+          "userName": "customer52",
+          "amountRequested": 97527.0,
+          "loanDurationMonths": 56,
+          "requestorAnnualNetIncome": 355937.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1741.5535714285713,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:26.227Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 29661.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "818",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer94",
+          "amountRequested": 58648.0,
+          "loanDurationMonths": 18,
+          "requestorAnnualNetIncome": 342952.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 3258.222222222222,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:27.080Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 28579.333333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "819",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer41",
+          "amountRequested": 61137.0,
+          "loanDurationMonths": 114,
+          "requestorAnnualNetIncome": 485297.0,
           "activeLoans": 0,
           "badPayer": false,
           "challengeYourLuck": false
         },
-        "installmentAmount": 2777.777777777778,
+        "installmentAmount": 536.2894736842105,
+        "rejected": true,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:28.031Z",
+        "accepted": 0,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 40441.416666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "820",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer91",
+          "amountRequested": 47531.0,
+          "loanDurationMonths": 17,
+          "requestorAnnualNetIncome": 311616.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2795.9411764705883,
         "rejected": false,
         "loanAccepted": true,
-        "requestDate": "2024-08-19T12:26:39.925Z",
+        "requestDate": "2024-08-22T13:27:28.937Z",
         "accepted": 1,
         "riskLevelText": "MID",
-        "requestorMonthlyNetIncome": 25000.0
+        "requestorMonthlyNetIncome": 25968.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "821",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer17",
+          "amountRequested": 61943.0,
+          "loanDurationMonths": 63,
+          "requestorAnnualNetIncome": 390480.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 983.2222222222222,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:29.567Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 32540.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "822",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer72",
+          "amountRequested": 79232.0,
+          "loanDurationMonths": 34,
+          "requestorAnnualNetIncome": 421076.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2330.3529411764707,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:30.323Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 35089.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "823",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer19",
+          "amountRequested": 66740.0,
+          "loanDurationMonths": 31,
+          "requestorAnnualNetIncome": 456901.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2152.9032258064517,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:30.955Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 38075.083333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "824",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer15",
+          "amountRequested": 98649.0,
+          "loanDurationMonths": 86,
+          "requestorAnnualNetIncome": 311345.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1147.0813953488373,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:31.626Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 25945.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "825",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer41",
+          "amountRequested": 41622.0,
+          "loanDurationMonths": 44,
+          "requestorAnnualNetIncome": 326541.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 945.9545454545455,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:32.270Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 27211.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "826",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer62",
+          "amountRequested": 61342.0,
+          "loanDurationMonths": 80,
+          "requestorAnnualNetIncome": 448628.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 766.775,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:32.945Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 37385.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "827",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer14",
+          "amountRequested": 44533.0,
+          "loanDurationMonths": 34,
+          "requestorAnnualNetIncome": 453261.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1309.7941176470588,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:33.636Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 37771.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "828",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer90",
+          "amountRequested": 24980.0,
+          "loanDurationMonths": 103,
+          "requestorAnnualNetIncome": 431725.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 242.5242718446602,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:34.277Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 35977.083333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "829",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer5",
+          "amountRequested": 26748.0,
+          "loanDurationMonths": 115,
+          "requestorAnnualNetIncome": 272500.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 232.59130434782608,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:34.937Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 22708.333333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "830",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer37",
+          "amountRequested": 45274.0,
+          "loanDurationMonths": 117,
+          "requestorAnnualNetIncome": 322021.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 386.95726495726495,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:35.534Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 26835.083333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "831",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer49",
+          "amountRequested": 60594.0,
+          "loanDurationMonths": 87,
+          "requestorAnnualNetIncome": 201297.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 696.4827586206897,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:36.195Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 16774.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "832",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer49",
+          "amountRequested": 14306.0,
+          "loanDurationMonths": 20,
+          "requestorAnnualNetIncome": 429258.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 715.3,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:36.871Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 35771.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "833",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer75",
+          "amountRequested": 77301.0,
+          "loanDurationMonths": 62,
+          "requestorAnnualNetIncome": 222418.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1246.7903225806451,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:37.491Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 18534.833333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "834",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer43",
+          "amountRequested": 72379.0,
+          "loanDurationMonths": 111,
+          "requestorAnnualNetIncome": 489371.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 652.063063063063,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:38.101Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 40780.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "835",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer38",
+          "amountRequested": 74142.0,
+          "loanDurationMonths": 48,
+          "requestorAnnualNetIncome": 258763.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1544.625,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:38.834Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 21563.583333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "836",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer61",
+          "amountRequested": 22921.0,
+          "loanDurationMonths": 19,
+          "requestorAnnualNetIncome": 456210.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1206.3684210526317,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:39.399Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 38017.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "837",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer68",
+          "amountRequested": 63581.0,
+          "loanDurationMonths": 113,
+          "requestorAnnualNetIncome": 359538.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 562.6637168141593,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:40.029Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 29961.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "838",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer15",
+          "amountRequested": 69132.0,
+          "loanDurationMonths": 100,
+          "requestorAnnualNetIncome": 428266.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 691.32,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:40.610Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 35688.833333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "839",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer80",
+          "amountRequested": 61004.0,
+          "loanDurationMonths": 49,
+          "requestorAnnualNetIncome": 405708.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1244.9795918367347,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:41.423Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 33809.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "840",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer82",
+          "amountRequested": 43650.0,
+          "loanDurationMonths": 98,
+          "requestorAnnualNetIncome": 476379.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 445.40816326530614,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:42.009Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 39698.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "841",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer85",
+          "amountRequested": 83307.0,
+          "loanDurationMonths": 48,
+          "requestorAnnualNetIncome": 354782.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1735.5625,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:42.586Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 29565.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "842",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer34",
+          "amountRequested": 27956.0,
+          "loanDurationMonths": 86,
+          "requestorAnnualNetIncome": 275157.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 325.06976744186045,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:43.209Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22929.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "843",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer34",
+          "amountRequested": 92524.0,
+          "loanDurationMonths": 90,
+          "requestorAnnualNetIncome": 322630.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1028.0444444444445,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:43.839Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 26885.833333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "844",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer36",
+          "amountRequested": 37263.0,
+          "loanDurationMonths": 113,
+          "requestorAnnualNetIncome": 236837.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 329.76106194690266,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:44.721Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 19736.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "845",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer8",
+          "amountRequested": 93040.0,
+          "loanDurationMonths": 16,
+          "requestorAnnualNetIncome": 231953.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 5815.0,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:45.374Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 19329.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "846",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer1",
+          "amountRequested": 32560.0,
+          "loanDurationMonths": 77,
+          "requestorAnnualNetIncome": 215499.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 422.85714285714283,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:46.022Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 17958.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "847",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer61",
+          "amountRequested": 42629.0,
+          "loanDurationMonths": 24,
+          "requestorAnnualNetIncome": 412864.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1776.2083333333333,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:46.582Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 34405.333333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "848",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer49",
+          "amountRequested": 56060.0,
+          "loanDurationMonths": 55,
+          "requestorAnnualNetIncome": 480767.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1019.2727272727273,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:47.219Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 40063.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "849",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer75",
+          "amountRequested": 92130.0,
+          "loanDurationMonths": 70,
+          "requestorAnnualNetIncome": 293704.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1316.142857142857,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:47.839Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 24475.333333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "850",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer66",
+          "amountRequested": 86104.0,
+          "loanDurationMonths": 15,
+          "requestorAnnualNetIncome": 451136.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 5740.266666666666,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:48.508Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 37594.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "851",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer65",
+          "amountRequested": 16991.0,
+          "loanDurationMonths": 24,
+          "requestorAnnualNetIncome": 216495.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 707.9583333333334,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:49.126Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 18041.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "852",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer39",
+          "amountRequested": 91686.0,
+          "loanDurationMonths": 114,
+          "requestorAnnualNetIncome": 485806.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 804.2631578947369,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:49.833Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 40483.833333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "853",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer69",
+          "amountRequested": 87656.0,
+          "loanDurationMonths": 19,
+          "requestorAnnualNetIncome": 323438.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 4613.473684210527,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:50.446Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 26953.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "854",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer41",
+          "amountRequested": 89947.0,
+          "loanDurationMonths": 33,
+          "requestorAnnualNetIncome": 374911.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2725.6666666666665,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:51.036Z",
+        "accepted": 0,
+        "riskLevelText": "HIGH",
+        "requestorMonthlyNetIncome": 31242.583333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "855",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer68",
+          "amountRequested": 92781.0,
+          "loanDurationMonths": 90,
+          "requestorAnnualNetIncome": 438227.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1030.9,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:51.689Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 36518.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "856",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer31",
+          "amountRequested": 84138.0,
+          "loanDurationMonths": 116,
+          "requestorAnnualNetIncome": 387479.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 725.3275862068965,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:52.418Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32289.916666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "857",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer7",
+          "amountRequested": 53221.0,
+          "loanDurationMonths": 68,
+          "requestorAnnualNetIncome": 290229.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 782.6617647058823,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:53.230Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 24185.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "858",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer36",
+          "amountRequested": 55628.0,
+          "loanDurationMonths": 46,
+          "requestorAnnualNetIncome": 210545.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1209.304347826087,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:54.058Z",
+        "accepted": 1,
+        "riskLevelText": "LOW",
+        "requestorMonthlyNetIncome": 17545.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "859",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer54",
+          "amountRequested": 67756.0,
+          "loanDurationMonths": 24,
+          "requestorAnnualNetIncome": 371178.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2823.1666666666665,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:54.698Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 30931.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "860",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer18",
+          "amountRequested": 90294.0,
+          "loanDurationMonths": 31,
+          "requestorAnnualNetIncome": 342194.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2912.7096774193546,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:55.350Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 28516.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "861",
+      "state": "Completed",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer54",
+          "amountRequested": 64557.0,
+          "loanDurationMonths": 100,
+          "requestorAnnualNetIncome": 345212.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 645.57,
+        "rejected": false,
+        "loanAccepted": true,
+        "requestDate": "2024-08-22T13:27:56.055Z",
+        "accepted": 1,
+        "riskLevelText": "MID",
+        "requestorMonthlyNetIncome": 28767.666666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "862",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer27",
+          "amountRequested": 51501.0,
+          "loanDurationMonths": 40,
+          "requestorAnnualNetIncome": 217983.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1287.525,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:56.703Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 18165.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "863",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer101",
+          "amountRequested": 63505.0,
+          "loanDurationMonths": 93,
+          "requestorAnnualNetIncome": 385675.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 682.8494623655914,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:57.467Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32139.583333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "864",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer78",
+          "amountRequested": 79096.0,
+          "loanDurationMonths": 30,
+          "requestorAnnualNetIncome": 220512.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2636.5333333333333,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:58.033Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 18376.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "865",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer9",
+          "amountRequested": 15544.0,
+          "loanDurationMonths": 41,
+          "requestorAnnualNetIncome": 335101.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 379.1219512195122,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:58.823Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 27925.083333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "866",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer88",
+          "amountRequested": 46857.0,
+          "loanDurationMonths": 44,
+          "requestorAnnualNetIncome": 368287.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1064.9318181818182,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:27:59.660Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 30690.583333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "867",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer71",
+          "amountRequested": 82161.0,
+          "loanDurationMonths": 64,
+          "requestorAnnualNetIncome": 266931.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1283.765625,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:00.431Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22244.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "868",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer3",
+          "amountRequested": 91860.0,
+          "loanDurationMonths": 76,
+          "requestorAnnualNetIncome": 394128.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1208.6842105263158,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:01.106Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32844.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "869",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer62",
+          "amountRequested": 98797.0,
+          "loanDurationMonths": 30,
+          "requestorAnnualNetIncome": 385264.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 3293.233333333333,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:01.826Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32105.333333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "870",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer101",
+          "amountRequested": 37805.0,
+          "loanDurationMonths": 24,
+          "requestorAnnualNetIncome": 443723.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1575.2083333333333,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:02.490Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 36976.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "871",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer4",
+          "amountRequested": 16977.0,
+          "loanDurationMonths": 98,
+          "requestorAnnualNetIncome": 400157.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 173.23469387755102,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:03.425Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 33346.416666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "872",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer47",
+          "amountRequested": 72518.0,
+          "loanDurationMonths": 55,
+          "requestorAnnualNetIncome": 415808.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1318.509090909091,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:04.113Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 34650.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "873",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer7",
+          "amountRequested": 32236.0,
+          "loanDurationMonths": 116,
+          "requestorAnnualNetIncome": 309122.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 277.8965517241379,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:04.761Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 25760.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "874",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer93",
+          "amountRequested": 39302.0,
+          "loanDurationMonths": 105,
+          "requestorAnnualNetIncome": 466438.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 374.3047619047619,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:05.391Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 38869.833333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "875",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer21",
+          "amountRequested": 58525.0,
+          "loanDurationMonths": 46,
+          "requestorAnnualNetIncome": 394472.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1272.2826086956522,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:06.077Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32872.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "876",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer77",
+          "amountRequested": 38356.0,
+          "loanDurationMonths": 107,
+          "requestorAnnualNetIncome": 301848.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 358.4672897196262,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:06.723Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 25154.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "877",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer77",
+          "amountRequested": 87489.0,
+          "loanDurationMonths": 76,
+          "requestorAnnualNetIncome": 457747.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1151.171052631579,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:07.357Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 38145.583333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "878",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer86",
+          "amountRequested": 95752.0,
+          "loanDurationMonths": 92,
+          "requestorAnnualNetIncome": 271266.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1040.7826086956522,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:08.247Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22605.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "879",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer21",
+          "amountRequested": 19953.0,
+          "loanDurationMonths": 40,
+          "requestorAnnualNetIncome": 270797.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 498.825,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:08.899Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22566.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "880",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer30",
+          "amountRequested": 56781.0,
+          "loanDurationMonths": 52,
+          "requestorAnnualNetIncome": 390382.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1091.9423076923076,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:09.514Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32531.833333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "881",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer50",
+          "amountRequested": 72493.0,
+          "loanDurationMonths": 101,
+          "requestorAnnualNetIncome": 283532.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 717.7524752475248,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:10.239Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 23627.666666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "882",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer17",
+          "amountRequested": 67039.0,
+          "loanDurationMonths": 71,
+          "requestorAnnualNetIncome": 485243.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 944.2112676056338,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:10.855Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 40436.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "883",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer67",
+          "amountRequested": 43746.0,
+          "loanDurationMonths": 27,
+          "requestorAnnualNetIncome": 253815.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1620.2222222222222,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:11.625Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 21151.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "884",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer56",
+          "amountRequested": 11694.0,
+          "loanDurationMonths": 85,
+          "requestorAnnualNetIncome": 319470.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 137.57647058823528,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:12.514Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 26622.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "885",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer90",
+          "amountRequested": 13625.0,
+          "loanDurationMonths": 96,
+          "requestorAnnualNetIncome": 430322.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 141.92708333333334,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:13.129Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 35860.166666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "886",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer42",
+          "amountRequested": 94268.0,
+          "loanDurationMonths": 38,
+          "requestorAnnualNetIncome": 412630.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2480.7368421052633,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:13.793Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 34385.833333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "887",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer66",
+          "amountRequested": 79316.0,
+          "loanDurationMonths": 73,
+          "requestorAnnualNetIncome": 209706.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1086.5205479452054,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:14.431Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 17475.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "888",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer36",
+          "amountRequested": 22553.0,
+          "loanDurationMonths": 50,
+          "requestorAnnualNetIncome": 208051.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 451.06,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:15.199Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 17337.583333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "889",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer64",
+          "amountRequested": 20177.0,
+          "loanDurationMonths": 58,
+          "requestorAnnualNetIncome": 353612.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 347.87931034482756,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:15.811Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 29467.666666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "890",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer42",
+          "amountRequested": 35467.0,
+          "loanDurationMonths": 30,
+          "requestorAnnualNetIncome": 232170.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1182.2333333333333,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:16.428Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 19347.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "891",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer69",
+          "amountRequested": 20414.0,
+          "loanDurationMonths": 63,
+          "requestorAnnualNetIncome": 403163.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 324.031746031746,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:17.128Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 33596.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "892",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer86",
+          "amountRequested": 34148.0,
+          "loanDurationMonths": 36,
+          "requestorAnnualNetIncome": 214667.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 948.5555555555555,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:17.780Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 17888.916666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "893",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer7",
+          "amountRequested": 45376.0,
+          "loanDurationMonths": 21,
+          "requestorAnnualNetIncome": 418779.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2160.7619047619046,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:18.750Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 34898.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "894",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer28",
+          "amountRequested": 47796.0,
+          "loanDurationMonths": 82,
+          "requestorAnnualNetIncome": 414316.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 582.8780487804878,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:19.395Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 34526.333333333336
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "895",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer87",
+          "amountRequested": 25880.0,
+          "loanDurationMonths": 103,
+          "requestorAnnualNetIncome": 259991.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 251.2621359223301,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:20.127Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 21665.916666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "896",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer52",
+          "amountRequested": 97115.0,
+          "loanDurationMonths": 33,
+          "requestorAnnualNetIncome": 348506.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2942.878787878788,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:20.761Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 29042.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "897",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer71",
+          "amountRequested": 29874.0,
+          "loanDurationMonths": 79,
+          "requestorAnnualNetIncome": 388390.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 378.1518987341772,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:21.358Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32365.833333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "898",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer78",
+          "amountRequested": 38408.0,
+          "loanDurationMonths": 104,
+          "requestorAnnualNetIncome": 270095.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 369.3076923076923,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:21.979Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22507.916666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "899",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer31",
+          "amountRequested": 96044.0,
+          "loanDurationMonths": 33,
+          "requestorAnnualNetIncome": 271938.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2910.4242424242425,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:22.596Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22661.5
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "900",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer64",
+          "amountRequested": 21660.0,
+          "loanDurationMonths": 19,
+          "requestorAnnualNetIncome": 424599.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1140.0,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:23.397Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 35383.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "901",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer37",
+          "amountRequested": 82370.0,
+          "loanDurationMonths": 74,
+          "requestorAnnualNetIncome": 432743.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1113.1081081081081,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:24.129Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 36061.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "902",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer35",
+          "amountRequested": 18871.0,
+          "loanDurationMonths": 52,
+          "requestorAnnualNetIncome": 351685.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 362.90384615384613,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:24.792Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 29307.083333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "903",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer84",
+          "amountRequested": 24861.0,
+          "loanDurationMonths": 34,
+          "requestorAnnualNetIncome": 390993.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 731.2058823529412,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:25.664Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 32582.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "904",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer100",
+          "amountRequested": 90669.0,
+          "loanDurationMonths": 86,
+          "requestorAnnualNetIncome": 440534.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1054.2906976744187,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:26.280Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 36711.166666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "905",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer42",
+          "amountRequested": 14181.0,
+          "loanDurationMonths": 110,
+          "requestorAnnualNetIncome": 341651.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 128.9181818181818,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:26.937Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 28470.916666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "906",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer81",
+          "amountRequested": 73830.0,
+          "loanDurationMonths": 57,
+          "requestorAnnualNetIncome": 364260.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1295.2631578947369,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:27.532Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 30355.0
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "907",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer28",
+          "amountRequested": 23432.0,
+          "loanDurationMonths": 40,
+          "requestorAnnualNetIncome": 269817.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 585.8,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:28.174Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22484.75
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "908",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer46",
+          "amountRequested": 12862.0,
+          "loanDurationMonths": 87,
+          "requestorAnnualNetIncome": 450851.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 147.83908045977012,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:28.874Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 37570.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "909",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer31",
+          "amountRequested": 36025.0,
+          "loanDurationMonths": 22,
+          "requestorAnnualNetIncome": 468911.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1637.5,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:29.492Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 39075.916666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "910",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer55",
+          "amountRequested": 95471.0,
+          "loanDurationMonths": 66,
+          "requestorAnnualNetIncome": 269896.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 1446.530303030303,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:30.165Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 22491.333333333332
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "911",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 0,
+        "loanRequest": {
+          "userName": "customer34",
+          "amountRequested": 49287.0,
+          "loanDurationMonths": 73,
+          "requestorAnnualNetIncome": 360423.0,
+          "activeLoans": 0,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 675.1643835616438,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:30.788Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 30035.25
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "912",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 1,
+        "loanRequest": {
+          "userName": "customer69",
+          "amountRequested": 95588.0,
+          "loanDurationMonths": 26,
+          "requestorAnnualNetIncome": 363545.0,
+          "activeLoans": 1,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 3676.4615384615386,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:31.539Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 30295.416666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "913",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer96",
+          "amountRequested": 91789.0,
+          "loanDurationMonths": 28,
+          "requestorAnnualNetIncome": 480404.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 3278.1785714285716,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:32.218Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 40033.666666666664
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "914",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer10",
+          "amountRequested": 70917.0,
+          "loanDurationMonths": 112,
+          "requestorAnnualNetIncome": 382850.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 633.1875,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:32.880Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 31904.166666666668
+      }
+    },
+    {
+      "processName": "VUSLoanRequest",
+      "processId": "915",
+      "state": "Active",
+      "variables": {
+        "riskLevel": 2,
+        "loanRequest": {
+          "userName": "customer33",
+          "amountRequested": 65610.0,
+          "loanDurationMonths": 29,
+          "requestorAnnualNetIncome": 239800.0,
+          "activeLoans": 2,
+          "badPayer": false,
+          "challengeYourLuck": false
+        },
+        "installmentAmount": 2262.4137931034484,
+        "rejected": false,
+        "loanAccepted": false,
+        "requestDate": "2024-08-22T13:28:33.489Z",
+        "accepted": 0,
+        "riskLevelText": "",
+        "requestorMonthlyNetIncome": 19983.333333333332
       }
     }
   ]
