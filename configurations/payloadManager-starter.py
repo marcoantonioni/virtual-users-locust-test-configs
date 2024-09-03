@@ -65,7 +65,7 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
         # print(json.dumps(retObject["jsonObject"], indent=2))
         
         ttMin = 1
-        ttMax = 5
+        ttMax = 2
         retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
 
     if text.find('Evaluate Loan Request Data') != -1:
@@ -85,8 +85,8 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
             rejected = True
         retObject["jsonObject"] = {'rejected': rejected} 
 
-        ttMin = 5
-        ttMax = 10
+        ttMin = 10
+        ttMax = 20
         retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
 
     if text.find('Validate Loan Request Data') != -1:
@@ -106,8 +106,8 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
             loanAccepted = True
         retObject["jsonObject"] =  {'loanAccepted': loanAccepted}
 
-        ttMin = 3
-        ttMax = 6
+        ttMin = 5
+        ttMax = 10
         retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
 
     """
