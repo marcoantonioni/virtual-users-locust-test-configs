@@ -1,0 +1,5 @@
+TEAM,GROUP,USER,MANAGER
+VUSLoanRequestStarter,VUSGroupStarter,vuxuser1..vuxuser50,
+VUSLoanRequestEvaluator,VUSGroup1,vuxuser1..vuxuser50,
+VUSLoanRequestValidator,VUSGroup2,vuxuser51..vuxuser100,
+

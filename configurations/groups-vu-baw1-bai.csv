@@ -1,0 +1,3 @@
+GROUP,USER
+# The groups to be modified cannot be in LDAP, they must be created in BAW
+
