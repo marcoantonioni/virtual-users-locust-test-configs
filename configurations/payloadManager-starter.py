@@ -36,6 +36,15 @@ def isMatchingTaskSubject(taskSubjectText, subjectFromUserDictionary):
 # reimplement it as from your needs
 #=============================
 
+# time in seconds, integer numbers must be: Min > 0, Max > Min
+_StartTTMin: int = 10
+_StartTTMax: int = 30
+_EvaluateTTMin: int = 10
+_EvaluateTTMax: int = 60
+_ValidateTTMin: int = 5
+_ValidateTTMax: int = 45
+
+
 def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCreateIndex: int = None):
     retObject = dict()
     retObject["jsonObject"] = {}
@@ -56,17 +65,15 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
                 'userName': 'customer'+str(rndVal), 
                 'amountRequested': random.randint(10000, 100000), 
                 'loanDurationMonths': random.randint(12, 120), 
-                'requestorAnnualNetIncome': random.randint(200000, 500000),
-                'activeLoans': random.randint(0, 2),
+                'requestorAnnualNetIncome': random.randint(400000, 1000000),
+                'activeLoans': random.randint(0, 1),
                 'badPayer': False,
                 'challengeYourLuck': False
             }
         }
         # print(json.dumps(retObject["jsonObject"], indent=2))
         
-        ttMin = 1
-        ttMax = 2
-        retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
+        retObject["thinkTime"] = random.randrange(_StartTTMin, _StartTTMax, 1)
 
     if text.find('Evaluate Loan Request Data') != -1:
         if preExistPayload != None:
@@ -85,9 +92,7 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
             rejected = True
         retObject["jsonObject"] = {'rejected': rejected} 
 
-        ttMin = 10
-        ttMax = 20
-        retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
+        retObject["thinkTime"] = random.randrange(_EvaluateTTMin, _EvaluateTTMax, 1)
 
     if text.find('Validate Loan Request Data') != -1:
         if preExistPayload != None:
@@ -101,14 +106,12 @@ def buildPayloadForSubject(text: str , preExistPayload: dict = None, unitTestCre
             # print("requestorMonthlyNetIncome", requestorMonthlyNetIncome)
             # print("riskLevel", riskLevel)
         loanAccepted = False
-        rndVal : int = random.randrange(0, 5, 1)
+        rndVal : int = random.randrange(0, 10, 1)
         if rndVal > 0:
             loanAccepted = True
         retObject["jsonObject"] =  {'loanAccepted': loanAccepted}
 
-        ttMin = 5
-        ttMax = 10
-        retObject["thinkTime"] = random.randrange(ttMin, ttMax, 1)
+        retObject["thinkTime"] = random.randrange(_ValidateTTMin, _ValidateTTMax, 1)
 
     """
     Process: VUSClaimCompleteTwoRoles 
