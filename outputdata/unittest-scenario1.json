@@ -1,0 +1,1109 @@
+{
+  "startedAt": "2025-03-11T14:03:37Z",
+  "endedAt": "2025-03-11T14:09:08Z",
+  "numOfInstances": 100,
+  "timeExceeded": false,
+  "assertsManager": "/home/marco/locust/studio/bawvut/virtual-users-locust-test-configs/configurations/assertsManager-type1.py",
+  "instances": [
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "608",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 106
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "609",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 91
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "610",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 63
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "611",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 123
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "612",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 139
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "613",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 149
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "614",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 138
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "615",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 143
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "616",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 75
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "617",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 148
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "618",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 69
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "619",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 90
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "620",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 60
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "621",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 101
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "622",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 147
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "623",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 57
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "624",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 135
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "625",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 137
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "626",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 77
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "627",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 72
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "628",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 68
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "629",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 86
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "630",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 73
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "631",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 147
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "632",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 113
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "633",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 80
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "634",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 90
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "635",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 148
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "636",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 136
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "637",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 97
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "638",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 108
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "639",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 66
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "640",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 121
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "641",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 94
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "642",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 84
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "643",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 81
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "644",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 85
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "645",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 96
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "646",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 140
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "647",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 124
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "648",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 75
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "649",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 79
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "650",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 112
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "651",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 107
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "652",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 59
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "653",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 85
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "654",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 119
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "655",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 144
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "656",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 102
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "657",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 69
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "658",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 100
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "659",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 145
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "660",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 140
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "661",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 101
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "662",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 94
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "663",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 119
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "664",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 92
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "665",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 135
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "666",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 133
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "667",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 119
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "668",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 104
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "669",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 83
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "670",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 65
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "671",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 144
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "672",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 98
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "673",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 131
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "674",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 77
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "675",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 121
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "676",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 106
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "677",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 70
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "678",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 116
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "679",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 68
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "680",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 88
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "681",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 74
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "682",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 123
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "683",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 63
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "684",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 60
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "685",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 146
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "686",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 91
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "687",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 52
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "688",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 92
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "689",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 95
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "690",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 57
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "691",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 53
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "692",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 137
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "693",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 106
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "694",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 139
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "695",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 83
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "696",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 151
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "697",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 132
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "698",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 56
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "699",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 131
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "700",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 120
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "701",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 78
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "702",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 150
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "703",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 144
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "704",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 140
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "705",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 90
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "706",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 115
+        }
+      }
+    },
+    {
+      "processName": "VUSClaimCompleteTwoRoles",
+      "processId": "707",
+      "state": "Completed",
+      "variables": {
+        "inputData": {
+          "requestId": "reqCompiled",
+          "newCounter": 106
+        }
+      }
+    }
+  ]
+}
