@@ -1,7 +1,7 @@
 # ==================================
 # Python code for payload manager
 # Application [VirtualUsersSandbox] Acronym [VUS] Snapshot [] Tip [true]
-# Application data model generated in file: ../virtual-users-locust-test-configs/configurations/payloadManager_VirtualUsersSandbox_VUS_tip_DataModel.py
+# Application data model generated in file: ../virtual-users-locust-test-configs/configurations/managers/payloadManager_VirtualUsersSandbox_VUS_tip_DataModel.py
 # ==================================
 
 """
@@ -23,7 +23,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 import random, json
 
 # !!! import your-data-model, example: 
-# from configurations import payloadManager_VirtualUsersSandbox_VUS_tip_DataModel as myDataModel
+# from configurations.managers import payloadManager_VirtualUsersSandbox_VUS_tip_DataModel as myDataModel
 
 #=============================
 # the function 'buildPayloadForSubject' must be present in any payload manager
